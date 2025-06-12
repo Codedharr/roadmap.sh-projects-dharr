@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frontend Developer</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">your name</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </section>
+
+    <div class="main-content">
+      <aside>
+        <nav class="projects-list">
+          <h2>Projects</h2>
+          <a href="#">HTML Only Portfolio</a>
+          <a href="#">Calculator</a>
+          <a href="#">Quiz App</a>
+          <a href="#">Countdown Timer</a>
+          <a href="#">Product Upcoming Page</a>
+        </nav>
+
+        <section class="work-edu">
+          <div class="work">
+            <h2>Work Experience</h2>
+            <p>…</p>
+          </div>
+          <div class="education">
+            <h2>Education</h2>
+            <p>…</p>
+          </div>
+        </section>
+      </aside>
+
+      <section class="reviews">
+        <h2>Reviews from my Teachers</h2>
+        <div class="review-card">“John was…”<br><em>Jane Doe, Assistant Prof.</em></div>
+        <div class="review-card">“John was…”<br><em>Jane Doe, Assistant Prof.</em></div>
+        <div class="review-card">“John was…”<br><em>Jane Doe, Assistant Prof.</em></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="container">
+    <p>© all rights reserved 2025</p>
+  </footer>
+
+  <script>
+    // Toggle menú en móvil
+    document.querySelector('.menu-toggle')
+      .addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.toggle('open');
+      });
+  </script>
+</body>
+</html>
