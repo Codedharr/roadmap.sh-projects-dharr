@@ -1,0 +1,45 @@
+/*Nav-content*/
+.navbar{
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 2.5rem;
+}
+
+/*Hero-Conentet*/
+.hero {
+  text-align: center;
+  
+}
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+
+/*Main content*/
+.main-content {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Reviews*/
+.reviews {
+  display: flex;
+  justify-content: center; /* eje principal: horizontal */
+  align-items: center;     /* eje transversal: vertical */
+  
+}
+

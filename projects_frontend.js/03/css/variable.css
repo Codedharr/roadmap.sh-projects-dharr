@@ -1,0 +1,21 @@
+:root {
+  /* Colores claros */
+  --bg: #ffffff;
+  --fg: #222222;
+  --primary: #0066cc;
+  --accent: #cc6600;
+
+  /* Tipografía */
+  --font-heading: 'Roboto', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  /* Espaciados */
+  --gap: 1rem;
+}
+¿
+[data-theme="dark"] {
+  --bg: #181818;
+  --fg: #e0e0e0;
+  --primary: #3399ff;
+  --accent: #ff9933;
+}
