@@ -15,6 +15,7 @@ body {
   color: var(--fg);
   background: var(--bg);
   line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -22,7 +23,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: var(--primary);
+  color: var(--fg);
   text-decoration: none;
 }
 
@@ -35,4 +36,26 @@ img {
       width: 95%;
       max-width: 120rem;
       margin: 0 auto;
+}
+
+
+/*Clase boton*/ 
+button {
+  border: none; 
+  background: none;
+}
+
+#theme-icon {
+  display: inline-block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.8) rotate(-45deg);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
 }
