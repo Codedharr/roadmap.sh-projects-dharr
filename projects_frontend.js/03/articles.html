@@ -4,30 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-      <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/variable.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/articles.css">
 </head>
 <body>
-
-    
     <header class="navbar">
-        <div class="logo"><h2>your name</h2></div>
+        <div class="logo"><h2>Codedharr</h2></div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="articles.html">Articles</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <button class=" button night"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg></button>
+          <button id="theme-dark">
+            <div id="theme-icon">
+                <svg    
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                  <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+              </svg>
+            </div>
+          </button>
         </ul>
     </header>
     
+      <main class="contenedor">
+            
+      <section class="hero">
+        <h1>Frontend Developer</h1>
+        <p>html only with proper layout, no styling</p>
+      </section>
 
+        <section class="articles">
+          <h1>Articles</h1>
+          <ul>
+            <li>
+              <h2><a href="#">The Importance of Semantic HTML</a></h2>
+              <p>A deep dive into why semantic HTML is crucial for accessibility and SEO.</p>
+            </li>
+            <li>
+              <h2><a href="#">Understanding Flexbox: A Beginner's Guide</a></h2>
+              <p>An introduction to the Flexbox layout model, with practical examples and use cases.</p>
+            </li>
+            <li>
+              <h2><a href="#">Building Responsive Web Apps with CSS Grid</a></h2>
+              <p>A tutorial on using CSS Grid to create responsive, modern web designs.</p>
+            </li>
+                        <li>
+              <h2><a href="#">Building Responsive Web Apps with CSS Grid</a></h2>
+              <p>A tutorial on using CSS Grid to create responsive, modern web designs.</p>
+            </li>
+          </ul>
+        </section>
+      </main>
 
       <footer class="container">
         <p>© all rights reserved 2025</p>
      </footer>
+      <script src="js/script.js"></script>
 </body>
 </html>

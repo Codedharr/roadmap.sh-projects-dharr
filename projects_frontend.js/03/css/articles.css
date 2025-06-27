@@ -1,0 +1,12 @@
+.articles {
+    margin-top: 10rem;
+}
+.articles h1 {
+    text-align: center;
+}
+
+.articles ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

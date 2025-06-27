@@ -1,4 +1,44 @@
 
-.projects li {
-    list-style-type: none;  
+.contact h1 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.contact button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: var(--bg);
+    background-color: var(--fg);
+}
+
+.contact button:hover {
+    cursor: pointer;
+}
+
+.contact label {
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact input {
+    border: none;
+    background-color: gainsboro;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.contact textarea {
+    border: none;
+    background-color: gainsboro;
+    padding: 1rem;
+    border-radius: 1rem;
+}
 }
