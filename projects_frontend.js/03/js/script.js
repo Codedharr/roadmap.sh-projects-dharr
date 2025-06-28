@@ -1,5 +1,5 @@
-const toggle = document.getElementById("theme-dark");
-    const icon = document.getElementById("theme-icon");
+const toggle = document.querySelector(".theme-dark");
+    const icon = document.querySelector(".theme-icon");
     const root = document.documentElement;
 
     const sun = `

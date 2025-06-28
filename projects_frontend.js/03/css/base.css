@@ -38,6 +38,7 @@ a {
 button {
   border: none; 
   background: none;
+  margin-bottom: 2rem;
 }
 
 .navbar button:hover {
@@ -47,7 +48,7 @@ button {
   cursor: pointer;
 }
 
-#theme-icon {
+.theme-icon {
   display: inline-block;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -60,4 +61,11 @@ button {
 .fade-in {
   opacity: 1;
   transform: scale(1) rotate(0deg);
+}
+
+
+@media (min-width: 768px) {
+  button {
+    margin-bottom: 0;
+  }
 }
